@@ -15,6 +15,16 @@
     border: 0.5px solid black;
 }
 
+.h_80 {
+    height: 80px;
+    background-color: thistle;
+}
+
+.h_20 {
+    height: 20px;
+    background-color: palevioletred;
+}
+
 .h_100 {
     height: 100px;
     border: 0.5px solid black;
@@ -80,3 +90,35 @@
     border-radius: 20px;
 }
 /* FINE RATCHET CLANK */
+
+
+/* INIZIO CONSOLE */
+.flex_centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_centro img {
+    height: 250px;
+}
+/* FINE CONSOLE */
+
+
+/* INIZIO IMMAGINE IT TAKES TWO */
+.bg_takes {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: contain;
+}
+
+.colore_sfondo {
+    background-color: thistle;
+}
+
+.h_150 button {
+    height: 20%;
+    width: 45%;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+}
+/* FINE IMMAGINE IT TAKES TWO */
