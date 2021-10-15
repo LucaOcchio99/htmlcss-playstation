@@ -34,6 +34,49 @@
     height: 80px;
     width: 80px;
     object-fit: contain;
+
+    margin-right: 16px;
 }
 /* FINE HEADER */
 
+
+/* INIZIO HERO */
+.bg_hero {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: contain;
+    height: 350px;
+}
+
+.colore_box {
+   color: white;
+   margin-bottom: 10%;
+}
+
+.flex_end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.colore_box button {
+    height: 20%;
+    width: 45%;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+}
+/* FINE HERO */
+
+
+/* INIZIO RATCHET CLANK */
+.bg_clank {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.ratchet_clank {
+    background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+/* FINE RATCHET CLANK */
