@@ -210,6 +210,20 @@
  /* FINE SERIE DI GIOCHI */
 
 
+/* INIZIO ESPLORA PLAYSTATION 4 */
+.play_vr_accessori img {
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* FINE ESPLORA PLAUSTATION 4 */
+
+
  /* INIZIO SERIE DI TRE IMMAGINI */
  .img_TreImmagini img {
      height: 100%;
