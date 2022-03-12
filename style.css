@@ -1,0 +1,341 @@
+
+/*= UTILITIES */
+/*? COLORS */
+.color-grey{
+    color: #727272;
+}
+
+.color-lightblue{
+    color: #1b81d2;
+}
+
+/*? BACKGROUND-COLORS */
+#bg-opaque{
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.bg-color-orange{
+    background-color: #cd3d0f;
+}
+
+.bg-color-blue{
+    background-color: #2d64e6;
+}
+
+.bg-color-dark-blue{
+    background-color: #00439c;
+}
+
+.bg-color-darker-blue{
+    background-color: #161c3b;
+}
+
+.bg-lighter-black{
+    background-color: #1f1f1f;
+}
+
+.bg-color-light-grey{
+    background-color: #bebcbb;
+}
+
+.bg-color-lighter-grey{
+    background-color: #d9dadc;
+}
+
+
+/*? PADDINGS AND MARGINS */
+.margin-y-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-y-70{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.margin-top-70{
+    margin-top: 70px;
+}
+
+.margin-y-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-bottom-100{
+    margin-bottom: 100px;
+}
+
+.padding-y-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+
+
+/*? FONTS*/
+.font-size-22-px{
+    font-size: 22px;
+}
+
+.font-size-40-px{
+    font-size: 40px;
+}
+
+.f-weight-600{
+    font-weight: 600;
+}
+
+/*? GENERALS */
+.my-button{
+    padding: 10px 12px;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumbotron{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+/*= BODY */
+/*? HEADER */
+header{
+    height: 100px;
+}
+
+#header-logo{
+    height: 35px;
+}
+
+#header-logo img{
+    width: 80px;
+}
+
+#header-nav{
+    height: 65px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header ul li i{
+    margin-left: 5px;
+}
+
+header ul li a{
+    color:#000
+}
+
+#header-nav i.bi-list{
+    font-size: 44px;
+}
+
+/*? MAIN */
+
+/*^ RETURNAL SECTION */
+#main-first-section-jumbotron{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+main div.jumbotron:first-of-type{/* PRIMO JUMBOTRON */
+    background-image: url(./img/jumbo-bg.png);
+    background-position-y: 100px;
+}
+
+#game-section{
+    padding-top: 265px;
+    padding-bottom: 50px;
+}
+
+#game-section div[class="col-"] img:first-of-type{
+    max-width: 280px;
+}
+
+/*^ CONSOLE SECTION */
+#console-ps5-section div.row:first-of-type img{
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.7s;
+}
+
+#playstation{
+    width: 100%;
+    position: relative;
+    bottom: 18px;
+}
+
+#console-accessories div{
+    display: flex;
+    opacity: 0.4;
+    transition: 0.7s;
+}
+
+/*^ IT TAKES TWO SECTION */
+main div.jumbotron:nth-of-type(2){
+    margin-top: 50px;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+main div.jumbotron:nth-of-type(2) section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main div.jumbotron:nth-of-type(2) img{
+    max-width: 260px;
+}
+
+/*^ NEW RELEASES SECTION */
+#m-4-section-row-2{
+    justify-content: center;
+}
+
+#new-releases-section div.row:nth-of-type(2) div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.7s;
+}
+
+#new-releases-section div.row:nth-of-type(2) div img{
+    border-radius: 20px;
+}
+
+/*^ PLAYSTATION PLUS SECTION */
+#ps-plus-section div.row div:first-of-type img{
+    max-width: 330px;
+}
+
+#ps-plus-section div.d-none img{
+    min-width: 440px;
+}
+
+
+/*^ PLAYSTATION SECTION */
+
+.section-col-img-box{
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+}
+/*? FOOTER */
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color:#fff
+}
+
+#sie-logo{
+    width: 130px;
+}
+
+/*= HOVER EFFECTS */
+#console-ps5-section div.row:first-of-type img:hover,
+#new-releases-section div.row:nth-of-type(2) > div:hover{
+    margin-top: 0;
+}
+
+header ul li:hover a,
+header ul li:hover i.chevron-down{
+    color: #00f;
+}
+
+.my-button.bg-dark:hover{
+    box-shadow: inset 0 0 0 3px #fff;
+    border: 3px solid #000;
+    cursor: pointer;
+}
+
+.my-button.bg-color-orange:hover{
+    box-shadow: inset 0 0 0 3px #000;
+    border: 3px solid #cd3d0f;
+    cursor: pointer;
+}
+
+.my-button.bg-color-blue:hover{
+    box-shadow: inset 0 0 0 3px #fff;
+    border: 3px solid #00439c;
+    cursor: pointer;
+}
+
+.my-button.bg-color-lighter-grey:hover{
+    box-shadow: inset 0 0 0 3px #bebcbb;
+    border: 3px solid #d9dadc;
+    cursor: pointer;
+}
+
+.my-button:hover{
+    box-shadow: inset 0 0 0 3px ;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+#console-accessories div:hover{
+    opacity: 1;
+}
+
+/*= MEDIA QUERIES */
+@media screen and (min-width:576px){
+    /*? MAIN */
+    main div.jumbotron:nth-of-type(2) img{
+        max-width: 335px;
+    }
+}
+
+@media screen and (min-width:768px){
+    /*? MAIN */
+
+    main div.jumbotron:nth-of-type(2) img{
+        max-width: 460px;
+    }
+}
+
+@media screen and (min-width:992px){
+    /*? MAIN */
+}
+@media screen and (min-width:1200px){
+    /*? MAIN */
+    #m-2-section-row-4 {
+        justify-content: center;
+    }
+
+    main div.jumbotron:nth-of-type(2) img{
+        max-width: 260px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    /*? MAIN */
+}
